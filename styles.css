@@ -114,10 +114,29 @@ header li a:hover {
   color: #ffffff;
 }
 
+.address_columns {
+  display: flex;
+}
 
 .address_img {
- width: 20%;
+ width: 25%;
+ display: block;
+ margin-right: 20px;
 }
+.address_surgery{
+  
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+
+}
+.two-columns {
+  width: 49%;
+}
+ 
+
 
 form p {
   margin: 0;
