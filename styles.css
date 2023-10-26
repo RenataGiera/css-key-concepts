@@ -1,6 +1,6 @@
 body {
   background-color: #80d0c7;
-  color: #0f0c51;
+  color: #050413;
   font-family: "Karma", sans-serif;
   font-size: 1.1em;
   line-height: 1.5em;
@@ -48,14 +48,21 @@ header {
   margin-bottom: 40px;
   color: #ffffff;
 }
-.header_logo {
+.header_info {
+  display: flex;
+  justify-content: space-between; 
+}
+.header_info_logo {
   font-size: 2.0em;
   font-weight: bold;
   text-transform: uppercase;
+  
 }
-.header_phone {
+.header_info_phone {
   font-size: 1.5em;
   font-weight: bold;
+  text-align: right;
+  margin-right: 10px;
 }
 
 header a {
@@ -64,17 +71,19 @@ header a {
 }
 .header_nav {
   background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
-  padding: 5px 10px;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
 }
-nav {
- 
-}
-ul {
+
+nav  ul {
   margin: 0;
   padding: 0;
 }
 nav li  {
-  display: inline-block;
+  display: inline-flex;
   text-transform: uppercase;
 
 } 
@@ -94,9 +103,11 @@ header li a:hover {
   padding: 3px 20px;
 }
 
+
+
 .restriction{
   background-color: #d3d0d0;
-  color: rgb(26, 25, 25);
+  color: rgb(21, 21, 21);
 }
 .restriction h2{
   background-color: firebrick;
