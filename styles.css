@@ -35,7 +35,6 @@ input {
 fieldset {
   border: 0;
 }
-
 .container {
   max-width:1200px;
   margin: auto;
@@ -55,7 +54,6 @@ header {
   font-size: 2.0em;
   font-weight: bold;
   text-transform: uppercase;
-  
 }
 .header_info_phone {
   font-size: 1.5em;
@@ -63,7 +61,6 @@ header {
   text-align: right;
   margin-right: 10px;
 }
-
 header a {
   color: #13547a;
   text-decoration: none;
@@ -76,7 +73,6 @@ header a {
   align-items: center;
   justify-content: space-between; 
 }
-
 nav  ul {
   margin: 0;
   padding: 0;
@@ -84,12 +80,10 @@ nav  ul {
 nav li  {
   display: inline-flex;
   text-transform: uppercase;
-
 } 
 nav li a {
   color: #ffffff;
   padding: 0px 10px;
- 
 } 
 header li a:hover {
   color: #13547a;
@@ -101,9 +95,6 @@ header li a:hover {
   line-height: normal;
   padding: 3px 20px;
 }
-
-
-
 .restriction{
   background-color: #d3d0d0;
   color: rgb(21, 21, 21);
@@ -112,48 +103,39 @@ header li a:hover {
   background-color: firebrick;
   color: #ffffff;
 }
-
 .address_columns {
   display: flex;
 }
-
 .address_img {
- width: 25%;
- display: block;
- margin-right: 20px;
+  width: 25%;
+  display: block;
+  margin-right: 20px;
 }
-
-
 .columns {
   display: flex;
   justify-content: space-between;
-
 }
 .two-columns {
   width: 49%;
 }
- 
 form p {
   margin: 0;
   padding: 0;
 }
-
 .contact form div {
   display: grid;
-  grid-template-columns: 1fr 1em 2fr;
+  grid-template-columns: 200px 2fr;
   grid-gap: 20px;
   grid-auto-flow: dense;
   align-items: center;
 }
-
 .contact form div label {
   text-align: right;
 }
-
-.contact form  input,
-.contact form select,
-.contact form  textarea {
-  grid-column: 2 / 4;
+.contact form div input,
+.contact form div select,
+.contact form div textarea {
+  grid-column: 2/ 3;
   width: auto;
   margin: 3px 0 0 0;
 }
