@@ -31,7 +31,6 @@ input {
   border: 0;
   background-color: #ffffff;
   line-height: normal;
-  padding: 2px 15px;
 }
 fieldset {
   border: 0;
@@ -123,9 +122,7 @@ header li a:hover {
  display: block;
  margin-right: 20px;
 }
-.address_surgery{
-  
-}
+
 
 .columns {
   display: flex;
@@ -136,17 +133,27 @@ header li a:hover {
   width: 49%;
 }
  
-
-
 form p {
   margin: 0;
+  padding: 0;
 }
 
-form div {
-  margin: 10px 0;
+.contact form div {
+  display: grid;
+  grid-template-columns: 1fr 1em 2fr;
+  grid-gap: 20px;
+  grid-auto-flow: dense;
+  align-items: center;
 }
 
+.contact form div label {
+  text-align: right;
+}
 
-
-
-
+.contact form  input,
+.contact form select,
+.contact form  textarea {
+  grid-column: 2 / 4;
+  width: auto;
+  margin: 3px 0 0 0;
+}
